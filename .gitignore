@@ -1,0 +1,38 @@
+# 依赖
+node_modules/
+
+# 日志
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# 本地配置文件
+config.json
+
+# 忽略目录中的所有文件
+/data/current/*
+/data/logs/*
+/data/versions/*
+
+# 保留目录本身
+!/data/current/.gitkeep
+!/data/logs/.gitkeep
+!/data/versions/.gitkeep
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local
+
+# IDE配置
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 构建产物
+dist/

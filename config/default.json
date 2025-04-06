@@ -1,0 +1,18 @@
+{
+  "vuepress": {
+    "sourcePath": "data/current",
+    "buildCommand": "npm run build",
+    "outputDir": "./.vuepress/dist"
+  },
+  "versioning": {
+    "versionsDir": "data/versions",
+    "maxVersions": 10
+  },
+  "logging": {
+    "level": "info",
+    "dir": "D:\\Work\\Javascript\\blog-manager\\data\\logs"
+  },
+  "preview": {
+    "port": "3000"
+  }
+}
